@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputField {
+  /* background:green; */
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: space-around;
+}
+
+input {
+  color: lightseagreen;
+  border-radius: 15px;
+  padding: 5px 15px 5px 15px;
+}
+
+.result {
+  border: 1px solid #333;
+  border-radius: 15px;
+}
+
+.result p {
+  /* border: .1px solid; */
+}
